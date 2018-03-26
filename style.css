@@ -1,5 +1,5 @@
 .navbar-light{
-  background: rgb(213, 255, 145);
+  background: rgb(102, 195, 241);
 
 }
  
@@ -16,19 +16,19 @@ body{
 }
 
 .display-4{
-  height: 200px;
+  height: 250px;
     font-weight: bold;
     color: rgb(46, 245, 28);
     -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
    margin-left: 0%;
-   font-size: 20px;
+   font-size: 80px;
 }
 
 .lead{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    color: rgb(0, 162, 255);
+    color: rgb(0, 0, 0);
     -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 }
@@ -46,7 +46,7 @@ body{
 
 
 
-.lead {
+/* .lead {
     animation-duration: 3s;
     animation-name: slidein;
   }
@@ -61,22 +61,5 @@ body{
       margin-left: 50%;
       width: 100%;
     }
-  }
+  } */
 
-  .display-4{
-    animation-duration: 4s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-    
-  }
