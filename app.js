@@ -13,6 +13,11 @@ var config = {
   // Get a reference to the database service
   var database = firebase.database();
 
+  var trainValue = $("#train-value").val();
+  var destination = $("#destination").val();
+  var time = $("#time").val();
+  var frequency = $("#frequency").val();
+
   // Initializing our click count at 0
   var clickCounter = 0;
 
@@ -24,6 +29,7 @@ var config = {
     event.preventDefault();
     // Add 1 to clickCounter
     clickCounter++;
+    console.log(trainName)
 
     // **** Store Click Data to Firebase in a JSON property called clickCount *****
     // **** Note how we are using the Firebase .set() method ****
