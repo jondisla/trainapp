@@ -1,5 +1,5 @@
 .navbar-light{
-  background: rgb(102, 195, 241);
+  background: rgb(56, 109, 136);
 
 }
  
@@ -11,18 +11,21 @@
     background-size: 100% ;
 }
 
+#inputColumn{
+  padding-bottom: 20px;
+  margin-top: 25px; 
+}
+
+.form-control{
+  height: 60px;
+}
+
 body{
   background: rgb(238, 238, 238);
 }
 
 .display-4{
-  height: 250px;
-    font-weight: bold;
-    color: rgb(46, 245, 28);
-    -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-   margin-left: 0%;
-   font-size: 80px;
+  width: 100%;
 }
 
 .lead{
