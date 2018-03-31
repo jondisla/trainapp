@@ -19,18 +19,25 @@
           <div class="container">
             <div class="col"><h1>Search and add your destination</h1></div>
               <div class="col" id="inputColumn">
-                <input type="text" class="form-control" placeholder="Train Name" id="trainName">
+                <h4>Train Name</h4>
+                <input type="text" class="form-control" placeholder="Sun Rail" id="trainName">
               </div>
               <div class="col" id="inputColumn">
-                <input type="text" class="form-control" placeholder="Destination" id="destination">
+                  <h4>Destination</h4>
+                <input type="text" class="form-control" placeholder="Orlando" id="destination">
               </div>
-              <div class="col" id="inputColumn">
-                <input type="text" class="form-control" placeholder="Time (13:00)" id="time">
+              <div class="row">
+              <div class="col" id="inputColumn" style="margin-left:15px;">
+                <h4>Time</h4>
+                <input type="text" class="form-control" placeholder="16:00" id="time">
               </div>
-              <div class="col" id="inputColumn">
-                <input type="text" class="form-control" placeholder="Frequency" id="frequency">
+              <div class="col" id="inputColumn" style="margin-right:15px;">
+                <h4>Frequency</h4>
+                <input type="text" class="form-control" placeholder="Minutes" id="frequency">
               </div>
-              <button class="btn btn-success my-2 my-sm-0" type="submit" id="submit">Add to list</button>
+              </div>
+              <center><button class="btn btn-success my-2 my-sm-0" type="submit" id="submit" style="width:
+                150px;height:60px;">Add to list</button></center>
             </div>
           </div>
         </div>
@@ -39,7 +46,7 @@
       <br>
       <div class="container">
       <div class="table-responsive">
-          <table class="table">
+          <table class="table" id="tableid">
         <thead class="thead">
           <tr>
             <th scope="col">Train Name</th>
@@ -51,12 +58,12 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row" id="train-value"></th>
+            <th scope="row" id="trainValue"></th>
             <td ></td>
-            <td id="destination-value"></td>
-            <td id="frequency-value"></td>
-            <td id="nArrive"></td>
-            <td id="mAway"></td>
+            <td id="trainValue"></td>
+            <td id="destinationValue"></td>
+            <td id="timeValue"></td>
+            <td id="frequencyValue"></td>
           </tr>
         </tbody>
       </table>
